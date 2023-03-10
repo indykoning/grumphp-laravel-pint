@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YieldStudio\GrumPHPLaravelPint;
+namespace Indykoning\GrumPHPLaravelPint;
 
 use GrumPHP\Fixer\Provider\FixableProcessResultProvider;
 use GrumPHP\Runner\TaskResult;

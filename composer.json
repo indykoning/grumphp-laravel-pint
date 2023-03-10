@@ -1,9 +1,8 @@
 {
-    "name": "yieldstudio/grumphp-laravel-pint",
+    "name": "indykoning/grumphp-laravel-pint",
     "description": "A Laravel Pint task for GrumPHP.",
     "type": "plugin",
     "keywords": [
-        "yieldstudio",
         "laravel",
         "grumphp",
         "quality",
@@ -11,7 +10,7 @@
         "pint",
         "linter"
     ],
-    "homepage": "https://github.com/YieldStudio/grumphp-laravel-pint",
+    "homepage": "https://github.com/Indykoning/grumphp-laravel-pint",
     "license": "MIT",
     "authors": [
         {
@@ -19,15 +18,19 @@
             "email": "james@yieldstudio.fr",
             "homepage": "https://yieldstudio.fr",
             "role": "Developer"
+        },
+        {
+            "name": "Indy Koning",
+            "homepage": "https://indykoning.nl",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
-        "phpro/grumphp": "^1.13"
+        "phpro/grumphp": "*"
     },
     "autoload": {
         "psr-4": {
-            "YieldStudio\\GrumPHPLaravelPint\\": "src"
+            "Indykoning\\GrumPHPLaravelPint\\": "src"
         }
     },
     "scripts": {
